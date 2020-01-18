@@ -1,0 +1,36 @@
+.reloj {
+  font-size: 2vw;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.reloj:hover {
+  color: rebeccapurple;
+}
+
+.aspectRatioBox {
+  height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+  color: white;
+  background-color: steelblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.aspectRatioBoxInside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flexboxCentering {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
 
+//Los Fragmentos Permiten agrupar unalista de Hijos sin agregar nodos Extra al DOM
 export default function FragmentExmp() {
   const h2Estilo = {
-    color: "#fa4252"
+    color: '#fa4252'
   };
   const pEstilo = {
-    color: "#91bd3a"
+    color: '#91bd3a'
   };
   return (
     <React.Fragment>
